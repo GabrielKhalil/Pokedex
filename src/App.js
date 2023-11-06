@@ -1,5 +1,6 @@
 import { Home } from "./pages/Home";
 import React, { useState, useEffect } from 'react';
+import { Router } from "./router"
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   }, [pageTitle]);
 
   return(
-    <Home/>
+    <Router/>
   );
 }
 export default App;
